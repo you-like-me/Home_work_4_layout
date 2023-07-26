@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    height: 943px;
+    background: #FFF;
+}
+
+.Top {
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    gap: 5%;
+}
+.Menu_logo {
+    display: flex;
+    height: 95%;
+    width: 24%;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 0.5%;
+}
+.logo_text1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: flex-end;
+}
+.logo_text2 {
+    color: #F25822;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Menu_elements {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    width: 59%;
+    gap: 1.5%;
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.menu_element1 {
+    text-decoration: none;
+    color: #F25822;
+    display: inline;
+}
+
+.menu_element {
+    text-decoration: none;
+    color: #000;
+    display: inline;
+}
+
+.Centr {
+    height: 60%;
+    display: flex;
+}
+
+.Text {
+    display: flex;
+    justify-items: end;
+    width: 50%;
+    flex-direction: column;
+}
+
+.Title {
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    justify-self: flex-end;
+    padding-left: 32%;
+    padding-top: 10%;
+}
+
+.Sub_title {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 45%;
+    padding-left: 32%;
+    padding-top: 4%;
+}
+
+.Buttons {
+    display: flex;
+    gap: 9%;
+    padding-left: 32%;
+    height: 8%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3%;
+}
+
+button {
+    color: #FFF;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: flex;
+    height: 80%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+}
+
+.Image {
+    display: flex;
+    height: 70%;
+    justify-content: flex-end;
+    align-items: stretch;
+    padding-top: 5%;
+}
+
+.Brand {
+    background: #FFF;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.Brand_logo {
+    display: flex;
+    gap: 7%;
+    align-items: center;
+    justify-content: center;
+}
